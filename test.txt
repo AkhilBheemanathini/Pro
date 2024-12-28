@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <style>
+            table{
+                border: 1px black solid ;
+                border-collapse: collapse;
+            }
+            td,th{
+                padding: 5px 10px;
+                text-align: center;
+                border: 1px black solid ;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr><th colspan="7">Time Table</th></tr>
+            <tr>
+                <th rowspan="7">Hours</th>
+                <th>Mon</th>
+                <th>Tues</th>
+                <th>Wed</th>
+                <th>Thurs</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            
+            <tr>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+            </tr>
+            <tr>
+                
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+            </tr>
+            <tr>
+                <td colspan="6">Lunch</td>
+            </tr>
+            <tr>
+                
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+            </tr>
+            <tr>
+                
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td rowspan="2">Games</td>
+            </tr>
+            <tr>
+                
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+                <td> Maths </td>
+            </tr>
+            <tr><td colspan="7">Count : 6</td></tr>
+        </table>
+    </body>
+</html>
